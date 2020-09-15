@@ -1,0 +1,38 @@
+#welcome{
+	color: purple;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	background: skyblue;
+}
+div.ex1 {
+    background-color: lightblue;
+    width: 800px;
+    height: 500px;
+    overflow: scroll;
+}
+
+
+#msg{
+	/*float: left;*/
+	font-size: 18px;
+	background: #a3f3f2;
+	height: auto;
+	width: 800px ;
+	border: 1px solid black;
+	
+}
+
+#online
+{
+	font-size: 24px;
+	border: 1px solid black;
+	height: auto;
+	width: 150px;
+
+}
+
+#msjmain
+{
+	
+}
