@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="380.0" prefWidth="520.0" style="-fx-background-color: #5F246B;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <JFXButton fx:id="btn1" buttonType="RAISED" layoutX="38.0" layoutY="126.0" onAction="#clicked1" prefHeight="86.0" prefWidth="138.0" ripplerFill="BLACK" style="-fx-background-color: #7447ed;" text=" " />
+      <JFXButton fx:id="btn2" buttonType="RAISED" layoutX="193.0" layoutY="126.0" onAction="#clicked2" prefHeight="86.0" prefWidth="138.0" ripplerFill="BLACK" style="-fx-background-color: #A33434;" text=" " />
+      <JFXButton fx:id="btn4" buttonType="RAISED" layoutX="38.0" layoutY="243.0" onAction="#clicked4" prefHeight="86.0" prefWidth="138.0" ripplerFill="BLACK" style="-fx-background-color: #db0d93;" text=" " />
+      <JFXButton fx:id="btn6" buttonType="RAISED" layoutX="347.0" layoutY="243.0" onAction="#clicked6" prefHeight="86.0" prefWidth="138.0" ripplerFill="BLACK" style="-fx-background-color: #ff5566;" text=" " />
+      <JFXButton fx:id="btn3" buttonType="RAISED" layoutX="347.0" layoutY="126.0" onAction="#clicked3" prefHeight="86.0" prefWidth="138.0" ripplerFill="BLACK" style="-fx-background-color: #35bd49;" text=" " />
+      <JFXButton fx:id="btn5" buttonType="RAISED" layoutX="193.0" layoutY="243.0" onAction="#clicked5" prefHeight="86.0" prefWidth="138.0" ripplerFill="BLACK" style="-fx-background-color: #31bd85;" text=" " />
+      <Label layoutX="144.0" layoutY="35.0" prefHeight="59.0" prefWidth="236.0" text="Beat Maker" textFill="WHITE">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
